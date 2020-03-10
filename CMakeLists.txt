@@ -16,8 +16,8 @@ set(ZMQ_DIR ${LIB_DIR}/libzmq)
 find_package(pybind11 REQUIRED)
 
 # Torch
-set(Torch_CMAKE_DIR ${LIB_DIR}/libtorch/share/cmake)
-set(Torch_DIR ${Torch_CMAKE_DIR}/Torch)
+# set(Torch_CMAKE_DIR ${LIB_DIR}/libtorch/share/cmake)
+# set(Torch_DIR ${Torch_CMAKE_DIR}/Torch)
 # set(Torch_DIR /home/quto/Repo/libtorch/share/cmake/Torch)
 if (NOT TORCH_FOUND)
     find_package(Torch REQUIRED)
